@@ -3,7 +3,7 @@
    ESP32 has 18 analog pins — NO MUX!
    All MQ sensors use AOUT directly.
    ─────────────────────────────────────────────────────
-   DHT22   SIG  → GPIO 4
+   DHT22   SIG  → GPIO 23
    MQ-135  AOUT → GPIO 34 (input only)
    MQ-3    AOUT → GPIO 35 (input only)
    MQ-4    AOUT → GPIO 32
@@ -55,8 +55,8 @@
     │  Get them free at https://io.adafruit.com           │
     │  (top-right "key" icon = Username + Active Key)     │
     └────────────────────────────────────────────────────┘ */
-#define AIO_USERNAME ""
-#define AIO_KEY ""
+#define AIO_USERNAME "mataaikreatif"
+#define AIO_KEY "aio_zXQv29NwAPZolHgsWcPVURIaa5Yh"
 #define AIO_SERVER "io.adafruit.com"
 #define AIO_SERVERPORT 1883 // 1883 = plain, 8883 = TLS
 
@@ -76,7 +76,7 @@
 #define OLED_ADDR 0x3C
 #define SDA_PIN 21
 #define SCL_PIN 22
-#define DHT_PIN 4
+#define DHT_PIN 23
 #define DHT_TYPE DHT11
 // All MQ sensors → direct AOUT (via 10kΩ/20kΩ divider!)
 #define MQ135_PIN 34
