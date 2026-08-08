@@ -55,8 +55,8 @@
     │  Get them free at https://io.adafruit.com           │
     │  (top-right "key" icon = Username + Active Key)     │
     └────────────────────────────────────────────────────┘ */
-#define AIO_USERNAME "mataaikreatif"
-#define AIO_KEY "aio_zXQv29NwAPZolHgsWcPVURIaa5Yh"
+#define AIO_USERNAME ""
+#define AIO_KEY ""
 #define AIO_SERVER "io.adafruit.com"
 #define AIO_SERVERPORT 1883 // 1883 = plain, 8883 = TLS
 
